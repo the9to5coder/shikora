@@ -1937,6 +1937,7 @@ h6 {
 #header.header-scrolled {
   background: rgba(20, 2, 0, 0.8);
   transition: all 0.5s;
+  display: none;
 }
 
 .header-top ul {
@@ -1992,7 +1993,7 @@ h6 {
     font-size: 28px;
   }
   #header #logo img {
-    max-height: 100px;
+    max-height: 150px;
   }
 }
 
@@ -2131,8 +2132,14 @@ h6 {
   color: #fff;
   font-weight: 900;
 }
+@media (min-width: 800px){
+  #mobile-nav-toggle {
+    display: inline;
+    margin-right: 8%;
 
-@media (max-width: 800px) {
+  }
+}
+@media (max-width: 2000px) {
   #mobile-nav-toggle {
     display: inline;
   }
@@ -2334,7 +2341,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background: url(../img/coffee.webp) center;
+  background: url(../img/banner.webp) center;
   background-size: cover;
   background-position: center left;
 }
@@ -2347,7 +2354,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 768px) {
   .banner-area {
-    background: url(../img/mob\ coffee.jpg);
+    background: url(../img/low_quality-RslDqNZxuA-transformed.jpeg);
     background-position: 50% 90% 50% 50%;
     background-size: cover;
     background-position: right;
@@ -2355,7 +2362,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-content {
-  margin-top: -50px;
+  margin-top: 20px;
 }
 
 .banner-content h1 {
@@ -2603,9 +2610,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .footer-area {
   color: #fff;
-  padding-top: 220px;
-  background: url(../img/footer-bg.jpg) center;
+  padding-top: 100px;
+  background: url(../img/rashid-New8EgKnSds-unsplash.jpg) center;
   background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgb(13 39 16 / 78%);
 }
 
 .footer-area h6 {
