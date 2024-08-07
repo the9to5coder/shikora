@@ -2411,8 +2411,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fff;
   border: 1px solid transparent;
   color: #222;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   border-radius: 50px;
   margin-top: 30px;
 }
